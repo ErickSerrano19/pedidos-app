@@ -15,7 +15,7 @@
 
         <ion-tab-button tab="tab3" href="/tabs/tab3">
           <ion-icon aria-hidden="true" :icon="square" />
-          <ion-label>Tab 3</ion-label>
+          <ion-label>Buscar usuario</ion-label>
         </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
@@ -24,5 +24,5 @@
 
 <script setup lang="ts">
 import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@ionic/vue';
-import { ellipse, square, triangle, people } from 'ionicons/icons';
+import { ellipse, square, people } from 'ionicons/icons';
 </script>
